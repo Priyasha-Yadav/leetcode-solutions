@@ -1,0 +1,4 @@
+# Write your MySQL query statement below
+SELECT PRODUCT_ID 
+FROM PRODUCTS
+WHERE SUBSTR(LOW_FATS,1,1) = 'Y' AND SUBSTR(RECYCLABLE,1,1) = 'Y';
