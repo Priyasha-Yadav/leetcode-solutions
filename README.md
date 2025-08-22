@@ -1,7 +1,7 @@
 # 🧩 LeetCode Solutions
 
 A curated collection of **LeetCode problems** with clear, efficient solutions in multiple programming languages.  
-The goal of this repository is to provide **structured, well-explained answers** to help with **coding interviews** and **algorithmic learning**.
+The goal of this repository is to provide **structured answers** to help with **coding interviews** and **algorithmic learning**.
 
 ---
 
