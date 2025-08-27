@@ -22,7 +22,6 @@ private:
     void preOrder(TreeNode* root, vector<int>& result) {
         if (!root)
             return;
-
         result.push_back(root->val);
         preOrder(root->left, result);
         preOrder(root->right, result);
