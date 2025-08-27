@@ -20,8 +20,8 @@ public:
 
 private:
     void inOrder(TreeNode* root, vector<int>& result) {
-        if (!root) return;
-
+        if (!root)
+            return;
         inOrder(root->left, result);
         result.push_back(root->val);
         inOrder(root->right, result);
