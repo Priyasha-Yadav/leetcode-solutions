@@ -6,6 +6,7 @@ public:
         if(t[tCount] == s[i]){
             tCount++;
         }
+        if(tCount == t.length()) break;
      } 
      return t.length() - tCount;  
     }
