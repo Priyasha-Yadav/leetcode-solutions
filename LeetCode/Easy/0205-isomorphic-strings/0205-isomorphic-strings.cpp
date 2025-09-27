@@ -16,6 +16,6 @@ public:
             }
             n[t[i]] = s[i];
         }
-        return true;
+    return true;
     }
 };
