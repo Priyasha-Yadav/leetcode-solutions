@@ -1,15 +1,10 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        map<int, int> m;
-        for (int i = 0; i < nums.size(); i++) {
-
-            m[nums[i]]++;
-        };
-        for (const auto& [key, val] : m) {
-            if (val == 1)
-                return key;
+        int ans = 0;
+        for(int i = 0; i< nums.size(); i++){
+            ans ^= nums[i];
         }
-        return 0;
+        return ans;
     }
 };
