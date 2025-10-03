@@ -3,23 +3,12 @@
  * @return { increment: Function, decrement: Function, reset: Function }
  */
 var createCounter = function (init) {
-    var original = init;
+    let original = init;
     return {
-
-        "increment": function () {
-            return ++init;
-        },
-
-        "decrement": function () {
-            return --init;
-        },
-
-        "reset": function () {
-            init = original
-            return init;
-        }
+        increment: function () { return init += 1 },
+        reset: function () { return init = original },
+        decrement: function () { return init -= 1 }
     }
-
 };
 
 /**
