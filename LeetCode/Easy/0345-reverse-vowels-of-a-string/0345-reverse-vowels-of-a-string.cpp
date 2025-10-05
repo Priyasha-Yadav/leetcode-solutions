@@ -1,6 +1,6 @@
 class Solution {
 public:
-    string reverseVowels(string s) {
+    string reverseVowels(string& s) {
         int st = 0;
         int end = s.length() - 1;
         while (st < end) {
