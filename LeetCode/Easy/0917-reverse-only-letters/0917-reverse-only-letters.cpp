@@ -8,10 +8,11 @@ public:
                 if (s[end] >= 65 && s[end] <= 90 ||
                     s[end] >= 97 && s[end] <= 122) {
                     swap(s[st], s[end]);
-                    st++;
                     end--;
+                    st++;
                 } else
                     end--;
+
             } else
                 st++;
         }
