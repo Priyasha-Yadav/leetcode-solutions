@@ -11,8 +11,8 @@ public:
             res += '0';
         }
         for (int i = 0; i < res.length(); i++) {
-            if(res[i] == '1'){
-            output += pow(2, res.length() - i - 1);
+            if (res[i] == '1') {
+                output += pow(2, res.length() - i - 1);
             }
         }
         return output;
