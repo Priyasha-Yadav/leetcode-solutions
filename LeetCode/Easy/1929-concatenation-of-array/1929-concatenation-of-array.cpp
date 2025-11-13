@@ -1,13 +1,13 @@
 class Solution {
 public:
     vector<int> getConcatenation(vector<int>& nums) {
-        vector<int> ans;
-        ans.resize(nums.size()*2);
-        for(int i = 0; i < nums.size(); i++){
-            ans[i] = nums[i];
-            ans[nums.size() + i] = nums[i];
+        vector<int> result;
+        int n = nums.size();
+        result.resize(n * 2);
+        for (int i = 0; i < nums.size(); i++) {
+            result[i] = nums[i];
+            result[i + n] = nums[i];
         }
-        return ans;
+        return result;
     }
 };
-auto init = atexit([]() { ofstream("display_runtime.txt") << "0"; });
