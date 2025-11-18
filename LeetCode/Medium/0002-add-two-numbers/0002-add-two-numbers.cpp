@@ -8,18 +8,15 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-
- class Solution {
+class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* result = new ListNode(0); 
+        ListNode* result = new ListNode(0);
         ListNode* ptr = result;
         int carry = 0;
         int sum = 0;
-        
         while (l1 || l2 || carry) {
-            sum = carry;  
-
+            int sum = sum + carry;
             if (l1) {
                 sum += l1->val;
                 l1 = l1->next;
@@ -29,14 +26,13 @@ public:
                 l2 = l2->next;
             }
 
-            carry = sum / 10; 
-            sum = sum % 10;    
-            
+            carry = sum / 10;
+            sum = sum % 10;
             ListNode* temp = new ListNode(sum);
-            ptr->next = temp;  
-            ptr = ptr->next;   
+            sum = 0;
+            ptr->next = temp;
+            ptr = ptr->next;
         }
-
-        return result->next;  
+        return result->next;
     }
 };
