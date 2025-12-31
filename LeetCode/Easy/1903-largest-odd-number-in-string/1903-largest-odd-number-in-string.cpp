@@ -7,13 +7,13 @@ public:
 
         for (int i = num.length() - 1; i >= 0; i--) {
             if (result.length() == 0 && (num[i] - '0') % 2 == 1)
-                return chotasingh(i, num);
+                return substr(i, num);
         }
         return result;
     }
 
 private:
-    string chotasingh(int n, string num) {
+    string substr(int n, string num) {
         string res = "";
         for (int i = 0; i <= n; i++)
             res += num[i];
