@@ -5,7 +5,7 @@ public:
         for (char c : s)
             m[c]++;
         int maxVowel = 0, maxConsonant = 0;
-        for (char c : s) {
+        for (char c = 'a'; c <= 'z'; c++) {
             if (isVowel(c))
                 maxVowel = max(m[c], maxVowel);
             else
