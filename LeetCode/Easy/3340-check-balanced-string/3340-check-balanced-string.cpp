@@ -4,9 +4,9 @@ public:
         int odd = 0, even = 0;
         for (int i = 0; i < num.length(); i++) {
             if (i % 2 == 0)
-                even += num[i] - '0';
+                even += '0' - num[i];
             else
-                odd += num[i] - '0';
+                odd += '0' - num[i];
         }
         cout << odd << " " << even;
         return odd == even;
