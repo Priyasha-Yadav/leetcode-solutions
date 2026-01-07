@@ -1,28 +1,16 @@
 class Solution {
 public:
     bool detectCapitalUse(string word) {
-        if (word.length() == 1) return true;
-
-        bool isUpper = true, isLower = true;
-
+        int upper = 0;
         for (char c : word) {
-            if (!(c >= 'A' && c <= 'Z')) isUpper = false;
-            if (!(c >= 'a' && c <= 'z')) isLower = false;
+            if (isupper(c))
+                upper++;
         }
 
-
-        if (isUpper) return true;
-        if (isLower) return true;
-
-
-        if (word[0] >= 'A' && word[0] <= 'Z') {
-            for (int i = 1; i < word.length(); i++) {
-                if (!(word[i] >= 'a' && word[i] <= 'z'))
-                    return false;
-            }
+        if (upper == 0 || upper == word.length())
             return true;
-        }
-
+        if (upper == 1 && isupper(word[0]))
+            return true;
         return false;
     }
 };
