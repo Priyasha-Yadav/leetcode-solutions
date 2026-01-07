@@ -1,9 +1,11 @@
 class Solution {
 public:
     string removeTrailingZeros(string num) {
-            while(num[num.length() - 1] == '0'){
-                num = num.substr(0, num.length() - 1);
+        int n = num.length();
+            while(n){
+               if(num[n-1] == '0') n--;
+               else break;
             }
-            return num;
+            return num.substr(0, n);
     }
 };
