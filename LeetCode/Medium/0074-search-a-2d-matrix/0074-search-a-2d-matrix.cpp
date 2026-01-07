@@ -3,8 +3,10 @@ public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
 
         for (int i = 0; i < matrix.size(); i++) {
-            if (binaryFind(matrix[i], target))
-                return true;
+            if(matrix[i][matrix[i].size()- 1] >= target)
+                if (binaryFind(matrix[i], target))
+                    return true;
+            else continue;
         }
         return false;
     }
