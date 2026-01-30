@@ -1,40 +1,28 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        int st = 0;
-        int end = s.length() - 1;
-        while (st <= end) {
-            if (!isAlphaNumeric(s[st])) {
-                st++;
-                continue;
+        int st = 0, end = s.length() -1;
+        while(st < end){
+            if(isAlphaNum(s[st])){
+                  if(isAlphaNum(s[end])){
+                    if(tolower(s[st]) == tolower(s[end])){
+                        st++;
+                        end--;
+                    }
+                    else return false;
+                  }
+                  else end--;
             }
-
-            if (!isAlphaNumeric(s[end])) {
-                end--;
-                continue;
-            }
-
-            if (toLower(s[st]) != toLower(s[end]))
-                return false;
-            st++;
-            end--;
+            else st++;
         }
         return true;
     }
 
 private:
-    char toLower(char& c) {
-        if (c <= 'Z' && c >= 'A')
-            c += 32;
-
-        return c;
-    }
-
-    bool isAlphaNumeric(char c) {
-        if (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z' ||
+    bool isAlphaNum(char c) {
+        if (c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z' ||
             c >= '0' && c <= '9')
             return true;
-
         return false;
     }
 };
