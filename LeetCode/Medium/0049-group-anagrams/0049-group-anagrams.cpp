@@ -8,9 +8,8 @@ public:
             sort(str.begin(), str.end());
             m[str].push_back(s);
         }
-        for (auto it : m) {
+        for (auto it : m) 
             res.push_back(it.second);
-        }
         return res;
     }
 };
