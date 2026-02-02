@@ -9,7 +9,7 @@ public:
             if (num[i] == num[j])
                 j++;
             else {
-                i++;
+                i = j;
                 j++;
             }
             if (j - i + 1 == 3 && j < n && num[i] == num[j]) {
