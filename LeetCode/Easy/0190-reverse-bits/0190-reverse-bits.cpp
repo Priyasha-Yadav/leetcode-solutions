@@ -1,20 +1,19 @@
 class Solution {
 public:
     int reverseBits(int n) {
-        string res = "";
-        int output = 0;
+        int res = 0;
+        string rev = "";
         while (n) {
-            res += to_string(n % 2);
+            rev += to_string(n % 2);
             n /= 2;
         }
-        while (res.length() < 32) {
-            res += '0';
+        int r = rev.length();
+        while (rev.length() < 32)
+            rev += '0';
+        for (int i = 0; i < r; i++) {
+            if (rev[i] == '1')
+                res += pow(2, rev.length() - i - 1);
         }
-        for (int i = 0; i < res.length(); i++) {
-            if (res[i] == '1') {
-                output += pow(2, res.length() - i - 1);
-            }
-        }
-        return output;
+        return res;
     }
 };
