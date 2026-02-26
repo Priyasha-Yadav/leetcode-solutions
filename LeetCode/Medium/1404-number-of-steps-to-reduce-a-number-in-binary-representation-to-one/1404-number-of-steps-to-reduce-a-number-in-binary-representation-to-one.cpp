@@ -27,6 +27,5 @@ private:
             s = "1" + s;
         } else
             s[i] = '1';
-        cout << s << endl;
     }
 };
