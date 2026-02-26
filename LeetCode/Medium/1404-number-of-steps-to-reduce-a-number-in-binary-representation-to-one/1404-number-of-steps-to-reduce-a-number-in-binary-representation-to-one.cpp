@@ -6,7 +6,7 @@ public:
         while (l > 1) {
             if (s[l - 1] == '1') {
                 plusOne(s);
-                 c++;
+                c++;
             }
             s.pop_back();
             l = s.length();
