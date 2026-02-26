@@ -1,31 +1,34 @@
 class Solution {
 public:
     int numSteps(string s) {
-        int c = 0;
-        int l = s.length();
-        while (l > 1) {
-            if (s[l - 1] == '1') {
+        int steps = 0;
+
+        while (s.length() > 1) {
+            if (s.back() == '1') {
                 plusOne(s);
-                c++;
+                steps++;
             }
-            s.pop_back();
-            l = s.length();
-            c++;
+
+            s.pop_back();  // divide by 2
+            steps++;
         }
-        return c;
+
+        return steps;
     }
 
 private:
     void plusOne(string& s) {
         int i = s.length() - 1;
-        while (i > 0 && s[i] != '0') {
+
+        while (i >= 0 && s[i] == '1') {
             s[i] = '0';
             i--;
         }
-        if (i == 0) {
-            s[i] = '0';
+
+        if (i < 0) {
             s = "1" + s;
-        } else
+        } else {
             s[i] = '1';
+        }
     }
 };
