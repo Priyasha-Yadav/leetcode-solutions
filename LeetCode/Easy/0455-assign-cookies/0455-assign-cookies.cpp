@@ -5,11 +5,9 @@ public:
         sort(s.begin(), s.end());
         int r = 0, l = 0;
         while (r < g.size() && l < s.size()) {
-            if (g[r] <= s[l]) {
+            if (g[r] <= s[l])
                 r++;
-                l++;
-            } else
-                l++;
+            l++;
         }
         return r;
     }
