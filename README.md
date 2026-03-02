@@ -51,3 +51,19 @@ If you’d like to add solutions or explanations:
 - Fork the repo
 - Create a new branch
 - Submit a pull request
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0002-add-two-numbers](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0002-add-two-numbers/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0002-add-two-numbers](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0002-add-two-numbers/) | Medium |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0002-add-two-numbers](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0002-add-two-numbers/) | Medium |
+<!---LeetCode Topics End-->
