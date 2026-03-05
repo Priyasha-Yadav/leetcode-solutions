@@ -66,4 +66,12 @@ If you’d like to add solutions or explanations:
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0002-add-two-numbers/) | Medium |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0643-maximum-average-subarray-i](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0643-maximum-average-subarray-i](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
 <!---LeetCode Topics End-->
