@@ -69,9 +69,15 @@ If you’d like to add solutions or explanations:
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0219-contains-duplicate-ii](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0219-contains-duplicate-ii](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0219-contains-duplicate-ii](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
 <!---LeetCode Topics End-->
