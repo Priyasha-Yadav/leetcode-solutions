@@ -90,4 +90,8 @@ If you’d like to add solutions or explanations:
 | [0003-longest-substring-without-repeating-characters](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0438-find-all-anagrams-in-a-string/) | Medium |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1009-complement-of-base-10-integer](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/1009-complement-of-base-10-integer/) | Easy |
 <!---LeetCode Topics End-->
