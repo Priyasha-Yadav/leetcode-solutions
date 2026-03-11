@@ -93,5 +93,6 @@ If you’d like to add solutions or explanations:
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0476-number-complement](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0476-number-complement/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/1009-complement-of-base-10-integer/) | Easy |
 <!---LeetCode Topics End-->
