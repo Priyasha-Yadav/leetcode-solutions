@@ -78,6 +78,7 @@ If you’d like to add solutions or explanations:
 | [0219-contains-duplicate-ii](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
+| [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -89,6 +90,7 @@ If you’d like to add solutions or explanations:
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0438-find-all-anagrams-in-a-string/) | Medium |
+| [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
