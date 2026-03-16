@@ -74,6 +74,7 @@ If you’d like to add solutions or explanations:
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
@@ -90,6 +91,7 @@ If you’d like to add solutions or explanations:
 | [0003-longest-substring-without-repeating-characters](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0438-find-all-anagrams-in-a-string/) | Medium |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -119,6 +121,7 @@ If you’d like to add solutions or explanations:
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0344-reverse-string](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0344-reverse-string/) | Easy |
 | [0392-is-subsequence](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -131,4 +134,8 @@ If you’d like to add solutions or explanations:
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
 <!---LeetCode Topics End-->
