@@ -99,6 +99,7 @@ If you’d like to add solutions or explanations:
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0014-longest-common-prefix](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
+| [0020-valid-parentheses](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0125-valid-palindrome](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
 | [0344-reverse-string](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0344-reverse-string/) | Easy |
 | [0392-is-subsequence](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
@@ -141,4 +142,8 @@ If you’d like to add solutions or explanations:
 | ------- | ------- |
 | [0977-squares-of-a-sorted-array](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0977-squares-of-a-sorted-array/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/1679-max-number-of-k-sum-pairs/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0020-valid-parentheses](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 <!---LeetCode Topics End-->
