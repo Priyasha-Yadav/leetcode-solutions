@@ -69,6 +69,7 @@ If you’d like to add solutions or explanations:
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 | [0011-container-with-most-water](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0011-container-with-most-water/) | Medium |
 | [0014-longest-common-prefix](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0167-two-sum-ii-input-array-is-sorted/) | Medium |
@@ -89,6 +90,7 @@ If you’d like to add solutions or explanations:
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Priyasha-Yadav/leetcode-solutions/tree/main/LeetCode/Medium/0438-find-all-anagrams-in-a-string/) | Medium |
